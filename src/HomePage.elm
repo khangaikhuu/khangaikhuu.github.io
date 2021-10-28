@@ -31,7 +31,6 @@ update msg model =
 
 view : Model -> Html.Html Msg
 view model =
-
     E.layout
         []
         (E.column
@@ -41,7 +40,6 @@ view model =
 
 
 
---
 --    , p []
 --        [ text "Chin-Oyun-Soft LLC. (stock symbol "
 --        , strong [] [ text "DMI" ]
