@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "bay_jekyll_theme"
+gem "minima", "~> 2.5"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.17"
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

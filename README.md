@@ -1,6 +1,6 @@
 # My Jekyll Blog
 
-This repository contains a blog built with [Jekyll](https://jekyllrb.com/) using the [Bay theme](https://github.com/eliottvincent/bay).
+This repository contains a blog built with [Jekyll](https://jekyllrb.com/) using the [Minima](https://github.com/jekyll/minima) theme.
 
 ## Prerequisites
 
@@ -50,11 +50,10 @@ categories: blog
 
 ## Customize
 
-- Edit `_config.yml` to change site title, description, header/footer links, and settings.
-- Edit `index.md` to change the home page content and profile picture.
-- Edit `blog.md` to change the blog page intro.
+- Edit `_config.yml` to change site title, description, email, and social links.
+- Edit `index.md` to change the home page intro.
 - Edit `about.md` to change the about page.
-- Add your own profile picture at `assets/img/profile-pic.jpg`.
+- Edit `blog.md` to change the blog page.
 
 ## Deploy
 
