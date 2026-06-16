@@ -1,6 +1,6 @@
 # My Jekyll Blog
 
-This repository contains a blog built with [Jekyll](https://jekyllrb.com/).
+This repository contains a blog built with [Jekyll](https://jekyllrb.com/) using the [Bay theme](https://github.com/eliottvincent/bay).
 
 ## Prerequisites
 
@@ -44,16 +44,21 @@ Include front matter at the top:
 layout: post
 title: "Title of Post"
 date: YYYY-MM-DD HH:MM:SS +0000
-categories: category-name
+categories: blog
 ---
 ```
 
 ## Customize
 
-- Edit `_config.yml` to change site title, description, and settings.
-- Edit files in `_layouts/` to change HTML structure.
-- Edit `assets/main.scss` to change styles.
-- Edit `index.md` and `about.md` to change the homepage and about page.
+- Edit `_config.yml` to change site title, description, header/footer links, and settings.
+- Edit `index.md` to change the home page content and profile picture.
+- Edit `blog.md` to change the blog page intro.
+- Edit `about.md` to change the about page.
+- Add your own profile picture at `assets/img/profile-pic.jpg`.
+
+## Deploy
+
+This site is deployed automatically to GitHub Pages via the GitHub Actions workflow in `.github/workflows/jekyll.yml`.
 
 ## Old project files
 

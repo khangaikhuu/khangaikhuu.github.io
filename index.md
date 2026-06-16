@@ -1,24 +1,14 @@
 ---
-layout: default
-title: Home
+layout: home
+profile_picture:
+  src: /assets/img/profile-pic.jpg
+  alt: Profile picture
 ---
 
-# Welcome to {{ site.title }}
+<p>
+  Welcome to my blog! This site is built with Jekyll and uses the <a href="https://github.com/eliottvincent/bay">Bay theme</a>.
+</p>
 
-{{ site.description }}
-
-## Latest Posts
-
-<ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3>
-        <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      </h3>
-      {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+<p>
+  Check out the <a href="/blog">Blog</a> page for my latest posts.
+</p>
